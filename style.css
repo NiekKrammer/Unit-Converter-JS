@@ -1,0 +1,116 @@
+body {
+    font-family: "Trebuchet MS", sans-serif;
+    background: linear-gradient(to right, #2193b0, #6dd5ed);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#H1 {
+    font-size: 35px;
+    color: #181717;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 500px) {
+    #H1 {
+        font-size: 30px
+    }
+  }
+
+#input-field {
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 45px 20px 45px 20px; 
+    text-align: center;
+    width: 90px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    width: 150px;
+    display: block;
+    border: 2px solid rgb(24, 23, 23);
+    border-radius: 3px;
+}
+
+@media (max-width: 500px) {
+    #input-field {
+        text-align: center;
+        margin-top: -10px;
+        padding: 40px 10px 40px 10px; 
+        font-size: 25px
+    }
+  }
+
+::placeholder {
+    color: rgb(31, 30, 30);
+    opacity: 1; 
+  }
+    input[placeholder] {
+    color: rgb(31, 30, 30)!important;
+}
+
+#convert-btn {
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px 10px 20px; 
+    margin-top: 10px;
+    width: 150px;
+    font-weight: bold;
+    color: #181717;
+}
+
+#btn:hover {
+    background-color: #E2E2E2;
+}
+
+@media (max-width: 500px) {
+    #convert-btn {
+        text-align: center;
+        padding: 10px 10px 10px 10px; 
+    }
+  }
+
+#output {
+    background-color: #181717;
+    border-radius: 3px;
+    margin-top: 30px;
+}
+
+h1 {
+    font-weight: bold;
+    padding-top: 30px;
+    color: aqua;
+}
+
+@media (max-width: 500px) {
+    #String {
+        font-size: 18px;
+    } 
+  }
+
+p {
+    font-size: 18px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+@media (max-width: 500px) {
+    p {
+        font-size: 15px;
+    } 
+  }
+  
+
+.card {
+    margin-bottom: 30px;
+}
+
+h1#String {
+    font-size: 22px;
+}
